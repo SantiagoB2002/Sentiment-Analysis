@@ -1,9 +1,19 @@
+#Data Scraping Reviews for Bento in central Florida data scraping
+#Santiago Bohorquez
+#12/25/2022
+
+
+###############################################
+###############################################
 
 library(data.table)
 library(rvest)
 library(tidyverse)
 
-url = "https://www.yelp.com/biz/bento-asian-kitchen-sushi-oviedo?osq=bento+oviedo"
+
+##############################################
+##############################################
+url_1 = "https://www.yelp.com/biz/bento-asian-kitchen-sushi-oviedo?osq=bento+oviedo"
 
 page <- read_html(url)
 
